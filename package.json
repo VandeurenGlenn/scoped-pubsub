@@ -1,0 +1,39 @@
+{
+  "name": "scoped-pubsub",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./exports/scoped-pubsub.js",
+      "types": "./exports/types/scoped-pubsub.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vandeurenglenn/little-pubsub": "^1.4.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rollup": "^3.21.6",
+    "tslib": "^2.5.0"
+  },
+  "main": "rollup.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/scoped-pubsub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/scoped-pubsub/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/scoped-pubsub#readme"
+}
