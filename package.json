@@ -9,6 +9,9 @@
       "types": "./exports/types/scoped-pubsub.js"
     }
   },
+  "files": [
+    "exports"
+  ],
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
